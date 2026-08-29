@@ -78,6 +78,29 @@ Za każdym razem, gdy zmienisz coś w kodzie:
 Strona sama się przebuduje i zaktualizuje w ciągu 1-2 minut — nic więcej
 nie musisz robić.
 
+## Instalacja na telefonie (PWA)
+
+Aplikacja jest skonfigurowana jako PWA (Progressive Web App) — użytkownicy
+mogą zainstalować ją na telefonie jak zwykłą aplikację, z własną ikoną
+i bez paska adresu przeglądarki. Działa też offline po pierwszym wejściu.
+
+**iPhone (Safari):**
+1. Otwórz stronę aplikacji w Safari
+2. Kliknij ikonę Udostępnij (kwadrat ze strzałką)
+3. Wybierz "Dodaj do ekranu początkowego"
+
+**Android (Chrome):**
+1. Otwórz stronę aplikacji w Chrome
+2. Menu (⋮) w prawym górnym rogu
+3. "Zainstaluj aplikację" lub "Dodaj do ekranu głównego"
+   (na Androidzie Chrome często sam zaproponuje to automatycznie,
+   pokazując baner "Zainstaluj aplikację")
+
+**Uwaga:** Jeśli zmienisz nazwę repozytorium, oprócz `base` w
+`vite.config.ts` zaktualizuj też `start_url`, `scope` w sekcji `manifest`
+tego samego pliku oraz ścieżkę `apple-touch-icon` w `index.html` —
+wszystkie muszą się zgadzać z nową nazwą repo.
+
 ## Testowanie lokalne (opcjonalne, przed zajęciami)
 
 Jeśli masz zainstalowany Node.js:

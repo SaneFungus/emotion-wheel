@@ -1,11 +1,52 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
   // WAZNE: musi sie zgadzac z nazwa repozytorium na GitHubie.
-  // Jesli repo nazywa sie np. "kolo-emocji", wpisz tu "/kolo-emocji/".
-  base: '/emotion-wheel/',
-  plugins: [react(), tailwindcss()],
+  // U Ciebie repo nazywa sie "plutchik-emotions" -> zostaw tak jak jest.
+  // Jesli kiedys zmienisz nazwe repo, zmien to tez tutaj.
+  base: '/plutchik-emotions/',
+  plugins: [
+    react(),
+    tailwindcss(),
+    VitePWA({
+      registerType: 'autoUpdate',
+      includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+      manifest: {
+        name: 'Kolo Emocji - Aparat Aktorski',
+        short_name: 'Kolo Emocji',
+        description: 'Interaktywne narzedzie dydaktyczne oparte na teorii emocji Plutchika, dla studentow Wydzialu Aktorskiego.',
+        theme_color: '#020617',
+        background_color: '#020617',
+        display: 'standalone',
+        orientation: 'portrait',
+        start_url: '/plutchik-emotions/',
+        scope: '/plutchik-emotions/',
+        icons: [
+          {
+            src: 'pwa-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'pwa-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+          {
+            src: 'maskable-icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
+      },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+      },
+    }),
+  ],
 })
