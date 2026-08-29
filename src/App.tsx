@@ -186,7 +186,7 @@ const EMOTIONS: Emotion[] = [
         en: "Weight moves up — from the belly to the chest, from the chest to the shoulders, from the shoulders to the head. Feet lose contact with the floor — not physically, but qualitatively. As if you might need to run and the body is already preparing. Everything slightly tightens, shrinks. You don't close yourself — you gather yourself. The body wants to be smaller, faster, ready."
       },
       attention: {
-        pl: "Widzenie peryferykiem nagle staje się bardzo aktywne. Szukasz. Nie wiesz czego — ale coś jest na granicy pola widzenia i jeszcze się nie ujawniło. Wzrok jest ostry, skacze. Uszy słyszą więcej niż zwykle.",
+        pl: "Widzenie peryferyjne nagle staje się bardzo aktywne. Szukasz. Nie wiesz czego — ale coś jest na granicy pola widzenia i jeszcze się nie ujawniło. Wzrok jest ostry, skacze. Uszy słyszą więcej niż zwykle.",
         en: "Peripheral vision suddenly becomes very active. You are searching. You don't know for what — but something is on the edge of your field of vision and hasn't revealed itself yet. The gaze is sharp, jumping. Ears hear more than usual."
       },
       internal: {
