@@ -216,7 +216,7 @@ const EMOTIONS: Emotion[] = [
     icon: Maximize2,
     actorGuide: {
       body: {
-        pl: "Nagłe zatrzymanie. Coś, co robiłeś — jakikolwiek ruch, jakikolwiek plan — nagle zostaje przerwane. Ciało się otwiera gwałtownie: oczy szerzej, klatka szerzej, ręce lekko od tułowia. Jakbyś nagle musiał pomieścić więcej niż przed chwilą. Poczuj ten moment powiększenia.",
+        pl: "Nagłe zatrzymanie. Coś, co robiłeś — jakikolwiek ruch, jakikolwiek plan — nagle zostaje przerwane. Ciało otwiera się gwałtownie: oczy szerzej, klatka szerzej, ręce lekko od tułowia. Jakby nagle trzeba było pomieścić więcej niż przed chwilą. Poczuj ten moment powiększenia.",
         en: "Sudden stop. Whatever you were doing — any movement, any plan — is suddenly interrupted. The body opens violently: eyes wider, chest wider, arms slightly away from the torso. As if you suddenly had to accommodate more than a moment ago. Feel this moment of enlargement."
       },
       attention: {
@@ -250,7 +250,7 @@ const EMOTIONS: Emotion[] = [
     icon: Anchor,
     actorGuide: {
       body: {
-        pl: "Ciężar wraca. Ale nie taki jak w zaufaniu — tamten był stabilny. Ten ciągnie w dół. Ramiona opadają, głowa ciężeje, klatka się zamyka — nie jako obrona, lecz jako wycofanie. Ciało traci zainteresowanie przestrzenią. Nie chcesz zajmować miejsca. Nie dlatego, że się boisz — dlatego, że nie ma po co.",
+        pl: "Ciężar wraca. Ale nie taki jak w zaufaniu — tamten był stabilny. Ten ciągnie w dół. Ramiona opadają, głowa robi się ciężka, klatka się zamyka — nie jako obrona, lecz jako wycofanie. Ciało traci zainteresowanie przestrzenią. Nie chcesz zajmować miejsca. Nie dlatego, że się boisz — dlatego, że nie ma po co.",
         en: "The weight returns. But not like in trust — that was stable. This pulls down. Shoulders drop, head gets heavy, chest closes — not as a defense, but as a withdrawal. The body loses interest in space. You don't want to take up space. Not because you're afraid — because there's no point."
       },
       attention: {
@@ -292,7 +292,7 @@ const EMOTIONS: Emotion[] = [
         en: "Paradoxically sharp — you see very clearly what you are turning away from. The gaze is focused on the source, but with a quality of 'too much, too close'. And then it turns away. You don't want to see it, but you can't not see it."
       },
       internal: {
-        pl: "Coś jest nie tak. Nie niebezpieczne jak w strachu — złe. Skażone. Wewnątrz jest ruch wypychania — z żołądka, z gardła. Jakby ciało chciało wyrzucić coś, co się do niego dostało. Granica między mną a nie-mną staje się bardzo ostra, twarda.",
+        pl: "Coś jest nie tak. Nie niebezpieczne jak w strachu — raczej złe. Skażone. Wewnątrz jest ruch wypychania — z żołądka, z gardła. Jakby ciało chciało wyrzucić coś, co się do niego dostało. Granica między mną a nie-mną staje się bardzo ostra, twarda.",
         en: "Something is wrong. Not dangerous like in fear — bad. Contaminated. Inside there is a pushing movement — from the stomach, from the throat. As if the body wanted to throw out something that got into it. The boundary between me and not-me becomes very sharp, hard."
       },
       breath: {
@@ -352,7 +352,7 @@ const EMOTIONS: Emotion[] = [
     icon: EyeIcon,
     actorGuide: {
       body: {
-        pl: "Ciężar przenosi się na przodostopy. Ciało pochyla się lekko do przodu — nie ku czemuś konkretnemu, ale ku temu, co będzie. Jest gotowość, sprężystość. Nie napięcie strachu — raczej napięcie łucznika, który naciągnął cięciwę i jeszcze nie puścił. Ciało jest zorganizowane, czujne, zestrzelone.",
+        pl: "Ciężar przenosi się na przodom stóp. Ciało pochyla się lekko do przodu — nie ku czemuś konkretnemu, ale ku temu, co będzie. Jest gotowość, sprężystość. Nie napięcie strachu — raczej napięcie łucznika, który naciągnął cięciwę i jeszcze nie puścił. Ciało jest zorganizowane, czujne, gotowe.",
         en: "Weight shifts to the balls of the feet. The body leans slightly forward — not towards something specific, but towards what will be. There is readiness, elasticity. Not the tension of fear — rather the tension of an archer who has drawn the bowstring and hasn't let go yet. The body is organized, alert, aligned."
       },
       attention: {
