@@ -6,9 +6,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 // https://vite.dev/config/
 export default defineConfig({
   // WAZNE: musi sie zgadzac z nazwa repozytorium na GitHubie.
-  // U Ciebie repo nazywa sie "plutchik-emotions" -> zostaw tak jak jest.
-  // Jesli kiedys zmienisz nazwe repo, zmien to tez tutaj.
-  base: '/plutchik-emotions/',
+  // U Ciebie repo nazywa sie "emotion-wheel" -> zostaw tak jak jest.
+  // Jesli kiedys zmienisz nazwe repo na GitHubie, zmien to tez tutaj.
+  base: '/emotion-wheel/',
   plugins: [
     react(),
     tailwindcss(),
@@ -23,8 +23,8 @@ export default defineConfig({
         background_color: '#020617',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/plutchik-emotions/',
-        scope: '/plutchik-emotions/',
+        start_url: '/emotion-wheel/',
+        scope: '/emotion-wheel/',
         icons: [
           {
             src: 'pwa-192.png',
